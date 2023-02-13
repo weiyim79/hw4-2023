@@ -54,9 +54,9 @@ a.skip{
   /* Requirement 7 code here -- Do not remove this comment. */
   
   .about-image, .clients-image, .method-image, .contact-image{
+    overflow: hidden;
     grid-column:1 / span 3;
     max-height: 500px;
-    overflow: hidden;
   }
 
   /* Requirement 8 code here -- Do not remove this comment. */
@@ -83,9 +83,9 @@ a.skip{
   /* Requirement 9 code here -- Do not remove this comment. */
 
   .text {
+    align-self: center;
     max-height: 40vh;
     overflow: scroll;
-    align-self: center;
   }
 
 
