@@ -32,7 +32,7 @@ a.skip{
 
   .intro{
     background-image: url(../images/header.jpg);
-    color:#858585;
+    background-color:#858585;
     min-height: 400px;
     background-attachment: fixed;
     background-position: center;
@@ -49,6 +49,7 @@ a.skip{
   /* Requirement 6 code here -- Do not remove this comment. */
   img{
     width:100%;
+
   }
 
   /* Requirement 7 code here -- Do not remove this comment. */
@@ -56,6 +57,7 @@ a.skip{
   .about-image, .clients-image, .method-image, .contact-image{
     grid-column:1 / span 3;
     max-height: 500px;
+    overflow: visible;
   }
 
   /* Requirement 8 code here -- Do not remove this comment. */
@@ -84,7 +86,8 @@ a.skip{
   .text {
     text-align: center;
     max-height: 40vh;
-    overflow:scroll;
+    overflow: scroll;
+    align-self: auto;
   }
 
 
